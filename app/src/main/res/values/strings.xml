@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HoroscApp</string>
+    <string name="hello_blank_fragment">Hello Fragment</string>
+    <!-- Menu Bottom Bar -->
+    <string name="horoscope">Horoscope</string>
+    <string name="palmistry">Palmistry</string>
+    <string name="luck">Luck</string>
+</resources>

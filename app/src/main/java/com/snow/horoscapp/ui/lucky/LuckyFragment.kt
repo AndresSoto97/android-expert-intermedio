@@ -6,8 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.snow.horoscapp.databinding.FragmentLuckyBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class LuckyFragment : Fragment() {
 
     private var _binding: FragmentLuckyBinding? = null

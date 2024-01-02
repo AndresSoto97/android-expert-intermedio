@@ -19,4 +19,7 @@
     <string name="capricorn">Capricorn</string>
     <string name="aquarius">Aquarius</string>
     <string name="pisces">Pisces</string>
+
+    <!-- LUCK -->
+    <string name="share_luck_btn_label">Share</string>
 </resources>

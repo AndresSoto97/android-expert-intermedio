@@ -33,7 +33,7 @@ android {
         }
         getByName("debug") {
             isDebuggable = true
-            buildConfigField("String", "BASE_URL", "\"https://newastro-debug.vercel.app\"")
+            buildConfigField("String", "BASE_URL", "\"https://newastro.vercel.app\"")
         }
     }
     compileOptions {
@@ -52,7 +52,7 @@ android {
 dependencies {
     val navVersion: String = "2.7.6"
     val retrofitVersion = "2.9.0"
-
+    val cameraXVersion= "1.3.1"
     // Navigation Component (navegacion)
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
@@ -66,6 +66,12 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:$retrofitVersion")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
+    // Camera X
+    implementation ("androidx.camera:camera-core:$cameraXVersion")
+    implementation ("androidx.camera:camera-camera2:$cameraXVersion")
+    implementation ("androidx.camera:camera-lifecycle:$cameraXVersion")
+    implementation ("androidx.camera:camera-view:$cameraXVersion")
+    implementation ("androidx.camera:camera-extensions:$cameraXVersion")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
